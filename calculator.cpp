@@ -1,7 +1,7 @@
-#include <iostream>
+//#include <iostream>
 
 using namespace std;
-
+//a simple calculator, only using 4 operators: +, -, *, /
 int main() {
 	double num1, num2;
 	
@@ -16,6 +16,7 @@ int main() {
 	cout << "Enter operation: ";
 	cin >> operation;
 
+//operators using switch case statement
 	switch (operation)
 	{
 	case '+':
